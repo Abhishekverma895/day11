@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100;
+    width: 100;
+}
+
+#box{height: 500px;
+width: 500px;
+background: linear-gradient(to left bottom, orange, white, green);}
+#box1{
+    height: 500px;
+width: 500px;
+background: radial-gradient(violet, red, white);
+}
+#box3{ height: 500px;
+width: 500px;
+background: linear-gradient(to right bottom,red, yellow, blue);}
