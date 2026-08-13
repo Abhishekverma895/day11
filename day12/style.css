@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100;
+    width: 100;
+}
+
+
+#box{height: 200px;
+width: 200px;
+background-color: aliceblue;}
+
+
+#box1{height: 100px;
+width: 300px;
+position: absolute;
+left: 40px;
+background-color: chartreuse;}
+
+
+#box2{height: 200px;
+   
+width: 500px;
+background-color: blue;}
+
+#parent{height: 100px;
+    width: 300px;
+
+    background-color: chartreuse;
+}
+
+#child{height: 50px;
+width: 200px;
+position: absolute;
+left: 100px;
+background-color: chocolate;}
+
+#beta{height:20px;
+width: 100px;
+position: relative;
+background-color: crimson;}
