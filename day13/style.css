@@ -12,7 +12,7 @@ body {
 
 #main {
     font-family: Arial, Helvetica, sans-serif;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     color: white;
 
@@ -32,7 +32,7 @@ body {
 
 
 #main>h1 {
-    font-size: 100px;
+    font-size: 150px;
     padding-left: 70px;
     font-weight: 100;
     color: black;
@@ -56,20 +56,47 @@ body {
     margin-top: 2%;
     width: 200px;
     font-size: 12px;
-    background-color: red;
+    
 }
 
-#bottmbar {
+#bottmbar{
     color: black;
+    display: flex;
+    justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: pink;
+    padding-left: 78px;
     width: 100%;
-}
-
-#bottmbar h1 {
-    font-size: 15px;
+    font-size: 10px;
     position: absolute;
     bottom: 0%;
-    left: 80%;
-
+    left: 0%;
 }
+
+#bottmbar h1{
+    font-size: 15px;
+}
+
+#bottmbar a{color: black;
+text-decoration: none;
+padding-right: 1%;
+/* padding-right: 620px; */
+}
+
+#main>img{height: 200px;
+  
+    position:absolute;
+}
+
+#first{top: 38%;
+    height: 250px !important;
+left: 64%;}
+
+#second{top: 45%;
+left: 46%;
+height: 220px !important;
+}
+
+#third{top: 65%;
+    height: 180px !important;
+    width: 120px;
+left: 57%;}
