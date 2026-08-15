@@ -26,19 +26,17 @@ background-color: chartreuse;}
 width: 500px;
 background-color: blue;}
 
-#parent{height: 100px;
-    width: 300px;
-
+#parent{height: 1000px;
+    width: 100px;
+    /* position: absolute;
+    left: 20%; */
+position: relative;
     background-color: chartreuse;
 }
 
-#child{height: 50px;
-width: 200px;
+#child{height: 600px;
+width: 20px;
 position: absolute;
-left: 100px;
-background-color: chocolate;}
+left: 50%;
+background-color: rgb(51, 30, 210);}
 
-#beta{height:20px;
-width: 100px;
-position: relative;
-background-color: crimson;}

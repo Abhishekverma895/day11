@@ -1,12 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html,body{
-    height: 100vh;
-    width: 100%;
-}
+https://drive.google.com/file/d/1_FGM72F31xb7NjEmz3K6LvTa0gq_HMYu/view?usp=sharing
 
 #box{height: 500px;
     margin: 100px;
@@ -31,6 +23,10 @@ background: url(https://images.unsplash.com/photo-1625859043880-56acbcb6a6ac?w=6
 background-size: cover;
 background-position: center;
 }
+#main1 h1{
+    color: chartreuse;
+}
+#main1 p{align-items: center;}
 
 #box4{
     height: 200px;
