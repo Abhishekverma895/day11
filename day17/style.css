@@ -34,7 +34,7 @@ html,body{
     height: 100vh;
     width: 100%;
     /* border-top: 20px solid lightgray; */
-    background-color: cadetblue;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -97,7 +97,7 @@ h4{
     left: 50%;
     transform: translateX(-50%);
 
-    color: cornflowerblue;
+    color: whitesmoke;
 }
 
  
@@ -544,6 +544,7 @@ h4{
     padding-top: 10px;
     font-family: f2;
     font-size: 20px;
+    color: white;
 }
 
 .info p{
@@ -554,6 +555,7 @@ h4{
    padding-left: 22px;
    padding-right: 22px;
    text-align: center;
+   /* color: white; */
    
    
 }
@@ -571,21 +573,23 @@ h4{
 
 .info button{
     margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 400;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 3px 5px;
+    padding: 8px 15px;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
-    background-color: #0D0C08;
-    border-width: 2px;
+    background-color: #0d0c08e9;
+    border: none;
+    transition: all ease 0.3s;
+
 
 }
 
 button:hover{
-    background-color: red;
-    color: blue;
+    background-color: white;
+    color: #0d0c08e9;
     cursor: pointer;
 }
 
@@ -952,7 +956,7 @@ button:hover{
  }
 
  .card20:hover{
-    background-color: red;
+    background-color: hsl(0, 100%, 50%);
     color: blue;
     cursor: pointer;
 }
